@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/vincent/Desktop/Tomawalk_Project/Assets/LevelDesign.unity
+- path: Assets/Scene/Game.unity
   isLoaded: 1
   isActive: 1

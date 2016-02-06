@@ -5,13 +5,14 @@ using System.Collections;
 
 public class ChoixCouleur : MonoBehaviour
 {
-    public CouleurRune Couleur;
+    CouleurRune Couleur;
     SpriteRenderer BrickRenderer;
 
     // Use this for initialization
-    void Start()
+    void Update()
     {
-        BrickRenderer = GetComponent<SpriteRenderer>();
+      
+        BrickRenderer = GetComponent<SpriteRenderer>();      
         //CouleurRune
         if (Couleur == CouleurRune.Rouge)
         {
@@ -38,6 +39,5 @@ public class ChoixCouleur : MonoBehaviour
             BrickRenderer.material.color = GestionCouleur.Orange;
         }
     }
-   
-
 }
+
