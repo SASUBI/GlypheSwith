@@ -1,43 +1,40 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
-
-public class ChoixCouleur : MonoBehaviour
-{
-    CouleurRune Couleur;
+public class CouleurMiniRune : MonoBehaviour {
+    public CouleurRune Couleur;
     SpriteRenderer BrickRenderer;
-
     // Use this for initialization
-    void Update()
-    {
-      
-        BrickRenderer = GetComponent<SpriteRenderer>();      
-        //CouleurRune
+    void Start () {
+        BrickRenderer = GetComponent<SpriteRenderer>();
         if (Couleur == CouleurRune.Rouge)
         {
             BrickRenderer.material.color = GestionCouleur.Rouge;
         }
-        if (Couleur == CouleurRune.Violet)
+        else if (Couleur == CouleurRune.Violet)
         {
             BrickRenderer.material.color = GestionCouleur.Violet;
         }
-        if (Couleur == CouleurRune.Bleu)
+        else if (Couleur == CouleurRune.Bleu)
         {
             BrickRenderer.material.color = GestionCouleur.Bleu;
         }
-        if (Couleur == CouleurRune.Turquoise)
+        else if (Couleur == CouleurRune.Turquoise)
         {
             BrickRenderer.material.color = GestionCouleur.Turquoise;
         }
-        if (Couleur == CouleurRune.Vert)
+        else if (Couleur == CouleurRune.Vert)
         {
             BrickRenderer.material.color = GestionCouleur.Vert;
         }
-        if (Couleur == CouleurRune.Orange)
+        else if (Couleur == CouleurRune.Orange)
         {
             BrickRenderer.material.color = GestionCouleur.Orange;
         }
     }
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
 }
-

@@ -76,10 +76,11 @@
     <Compile Include="Assets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
     <Compile Include="Assets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
     <Compile Include="Assets\Game Jam Menu Template\Scripts\StartOptions.cs" />
-    <Compile Include="Assets\Script\ChoixCouleur.cs" />
+    <Compile Include="Assets\Script\CouleurMiniRune.cs" />
     <Compile Include="Assets\Script\GestionCouleur.cs" />
+    <Compile Include="Assets\Script\OnClick.cs" />
+    <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\Timer.cs" />
-    <Compile Include="Assets\Testrandom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Game Jam Menu Template\Fonts\OpenSans\License!.txt" />
