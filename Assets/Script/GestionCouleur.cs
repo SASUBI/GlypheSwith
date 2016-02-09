@@ -57,6 +57,7 @@ public class GestionCouleur : MonoBehaviour
         return (CouleurRune)(UnityEngine.Random.Range(0, Enum.GetNames(typeof(CouleurRune)).Length));
         
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Onestrougetoutlesdeux");
